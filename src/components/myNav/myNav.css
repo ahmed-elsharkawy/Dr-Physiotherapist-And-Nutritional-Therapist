@@ -1,0 +1,15 @@
+.navbar{
+    background-color: var(--darkColor)
+}
+.navBrand{
+    width: 200px;
+}
+.logoImg{
+    max-width: 100%;
+}
+.navbar .nav > *{
+    font-weight: 600;
+}
+.navbar .nav > *:hover{
+    color: var(--mainColor) !important;
+}

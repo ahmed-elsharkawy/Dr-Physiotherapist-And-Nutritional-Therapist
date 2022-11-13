@@ -1,0 +1,56 @@
+:root{
+  --mainColor: rgb(85, 182, 199);
+  --secondColor: #f2cf9e;
+  --darkColor: rgb(33, 42, 54)
+}
+.samllFonts{
+  font-size: 13px;
+  font-weight: 400;
+  color: #bbb;
+}
+.mybtn{
+  background-color: var(--mainColor) !important;
+  border: 2px solid var(--mainColor) !important;
+  transition: 0.5s all ease;
+  color: white !important;
+}
+.mybtn:hover{
+  color: var(--darkColor) !important;
+  background-color: white !important;
+  border: 2px solid var(--mainColor) !important;
+  color: var(--darkColor);
+}
+
+.mybtn2{
+  background-color: white !important;
+  transition: 0.5s all ease;
+  color: #333 !important;
+}
+.mybtn2:hover{
+  color: white !important;
+  background-color: var(--mainColor) !important;
+}
+.mybtn3{
+  background-color: var(--secondColor) !important;
+  transition: 0.5s all ease;
+  color: #333 !important;
+}
+.mybtn3:hover{
+  color: var(--mainColor) !important;
+  background-color: white !important;
+}
+
+.head{
+  color: var(--darkColor);
+}
+.par1{
+ font-size: 19px;
+ font-weight: 100;
+  color: #777;
+}
+
+.par2{
+  font-size: 16px;
+  font-weight: 500;
+   color: #999;
+ }

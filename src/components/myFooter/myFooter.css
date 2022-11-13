@@ -1,0 +1,19 @@
+.myFooter{
+    /* margin-top: 500px; */
+    color: white;
+    background-color: var(--darkColor);
+}
+.myFooter .logo{
+    width: 200px;
+}
+.myFooter .logo img{
+    max-width: 100%;
+}
+.myFooter li a{
+    color: inherit;
+    text-decoration: none;
+}
+.myFooter li a:hover{
+    color: var(--mainColor);
+    text-decoration: none;
+}

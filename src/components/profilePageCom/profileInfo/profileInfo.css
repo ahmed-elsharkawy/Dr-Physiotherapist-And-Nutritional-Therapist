@@ -1,0 +1,25 @@
+.profileInfo .outer{
+    background-color: var(--mainColor);
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--darkColor);
+    /* border-top: 8px solid var(--mainColor); */
+}
+.profileInfo .list-group-item{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .profileInfo .barLeft{
+    width: 50% !important;
+    border-right: 2px solid ;
+} */
+
+.profileInfo .barRight{
+    /* background-color: var(--secondColor); */
+    border: 1px solid var(--secondColor);
+    padding: 5px 8px;
+    border-radius: 3px;
+}

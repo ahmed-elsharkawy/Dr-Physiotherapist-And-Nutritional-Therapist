@@ -1,0 +1,28 @@
+.ourTeam h2::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 70px;
+    height: 1px;
+    background-color: var(--mainColor);
+  }
+  .ourTeam .social{
+    text-align: center;
+  }
+  .ourTeam .social .icons{
+    color: var(--mainColor);
+    transition: 0.2s all ease;
+  }
+  .ourTeam .social .icons:hover{
+    color: var(--secondColor);
+    cursor: pointer;
+    box-shadow: none !important; 
+  }
+  .ourTeam .DR {
+    color: var(--mainColor);
+    font-size: larger;
+    font-weight: 700;
+  }
+  .ourTeam .name{
+    color: var(--darkColor);
+  }

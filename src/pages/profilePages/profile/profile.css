@@ -1,0 +1,35 @@
+.profileData{
+    position: relative;
+    background-color: aquamarine;
+    background-image: url('https://pfh-images-production.s3.ap-south-1.amazonaws.com/files/images/PCOS%20Meal%20Planning-min__e76e0faf-24cd-4152-b22c-423bc47dcc37.jpeg');
+    background-size: 100% 100%;
+}
+.profileData h1{
+    z-index: 555;
+}
+.profileData .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 51, 58, 0.7);
+}
+.profileData .userInbody{
+    background-color: rgb(229, 252, 255);
+    z-index: 333;
+}
+.profileData .wel{
+    font-size: smaller;
+}
+.profileData .name{
+    color: var(--secondColor);
+}
+@media only screen and (max-width: 768px) {
+    .profileData .userInbody{
+        margin-top: 50px;
+    }
+    .profileData .welcome{
+        font-size: 20px;
+    }
+  }

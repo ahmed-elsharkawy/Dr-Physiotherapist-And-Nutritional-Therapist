@@ -1,0 +1,72 @@
+
+.introSwiper {
+    height: 80vh !important;
+
+}
+.introSwiper .swiper-slide{
+    background-color: rgb(239, 247, 255) !important;
+}
+.introSwiper .swiper-slide .content h1 {
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--mainColor);
+    background-color: white;
+    width: fit-content;
+}
+.introSwiper .swiper-slide .content h2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    background-color: var(--mainColor);
+    width: fit-content;
+}
+.introSwiper .swiper-slide .content p {
+    text-align: left;
+}
+.introSwiper .swiper-slide .content button {
+    font-size: larger;
+    border: 2px solid var(--mainColor);
+}
+.introSwiper .swiper-slide .content button:hover {
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.introSwiper .swiper-slide .img{
+    position: relative;
+}
+.introSwiper .swiper-slide .img .overlay{
+    background-color: rgb(240, 248, 255, 0.1);
+}
+
+@media only screen and (max-width: 768px){
+    .introSwiper .swiper-slide{
+        height: 100% !important;
+    }
+    .introSwiper .swiper-slide .contain{
+        flex-direction: column;
+    }
+    .introSwiper .swiper-slide .content{
+        width: 100%;
+    }
+    .introSwiper .swiper-slide .img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .introSwiper .swiper-slide .content h1 {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .introSwiper .swiper-slide .content h2 {
+        font-weight: 300;
+        font-size: 22px;
+    }
+    .introSwiper .swiper-slide .content p {
+        font-size: 17px;
+    }
+    .introSwiper .swiper-slide .content button {
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,7 @@
+.loader{
+    margin: 200px 0 400px 0 ;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 30px;
+    color: var(--mainColor);
+}

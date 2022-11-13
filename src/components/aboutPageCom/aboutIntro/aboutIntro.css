@@ -1,0 +1,14 @@
+.aboutIntro .leftSide{
+    text-align: center;
+}
+.aboutIntro .leftSide h2{
+    text-align: center;
+}
+.aboutIntro .leftSide p > *{
+    margin-left: auto;    
+}
+
+.aboutIntro img{
+    padding-bottom: 5px;
+    width: 100%;
+}

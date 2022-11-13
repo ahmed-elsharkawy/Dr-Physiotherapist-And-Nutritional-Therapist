@@ -1,0 +1,8 @@
+.ourServices h2::after {
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  width: 70px;
+  height: 1px;
+  background-color: var(--mainColor);
+}

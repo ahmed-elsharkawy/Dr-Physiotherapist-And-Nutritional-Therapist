@@ -1,0 +1,17 @@
+.breadCrumb{
+    height: 250px;
+    background-image: linear-gradient( to right, #c3dcec  , #55799c);
+}
+.breadCrumb h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.breadcrumb-item *{
+    color: white;
+    font-size: larger;
+    transition: 0.2s all ease;
+    text-decoration: none;
+}
+.breadcrumb-item *:hover{
+    color: var(--mainColor);
+}

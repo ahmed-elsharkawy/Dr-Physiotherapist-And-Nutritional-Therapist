@@ -1,0 +1,32 @@
+.visionMision .content p > *{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+     color: #777;
+}
+
+.visionMision .content h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.visionMision .content h2::before{
+    content: "";
+    width: 20px;
+    height: 2px;
+    color: #777;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.visionMision .item{
+    border-top: 7px solid var(--mainColor) !important;
+}
+
+.visionMision .item .img{
+    width: 100px;
+}
+.visionMision .item .img img{
+    width: 100px;
+}
